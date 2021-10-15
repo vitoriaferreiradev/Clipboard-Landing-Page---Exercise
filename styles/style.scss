@@ -1,0 +1,89 @@
+// General Confs 
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+:root{
+    --strong-cyan: hsl(171, 66%, 44%);
+    --light-blue: hsl(233, 100%, 69%);
+    --dark-grayish-blue: hsl(210, 10%, 33%);
+    --grayish-blue: hsl(201, 11%, 66%);
+}
+
+body {
+    min-height: 100vh;
+    font-size: 1.125rem;
+}
+
+h1 {
+    font-size: 2.125rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+    margin-top: 100px
+}
+
+h3 {
+    margin-top: 50px;
+}
+
+h1, h2, h3{
+    color: var(--dark-grayish-blue);
+    font-weight: 600;
+    margin-bottom: 15px
+}
+
+p {
+    color: var(--grayish-blue);
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+button {
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.ios-btn{
+    background-color: var(--strong-cyan);
+    border-bottom: 3px solid hsl(171, 56%, 38%);
+    box-shadow: 2px 0px 4px var(--strong-cyan);
+}
+
+.mac-btn{
+    background-color: var(--light-blue);
+    background-color: var(--light-blue);
+    border-bottom: 3px solid hsl(233, 44%, 51%);
+    box-shadow: 1px 0px 4px var(--light-blue);
+}
+
+.logo {
+    font-size: 8.125rem;
+    margin: 20px;
+    color: var(--strong-cyan);
+}
+
+.social-media i {
+    color: var(--dark-grayish-blue);
+    font-size: 1.8rem;
+}
+
+.social-media i:not(last-child){
+    margin: 20px 20px 50px 20px;
+}
+
+@import "_mobile";
+@import "_footer";
+@import "_desktop";
